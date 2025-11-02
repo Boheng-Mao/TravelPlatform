@@ -52,6 +52,6 @@ Other controllers manage additional flows such as announcements (`NoticeControll
 1. Import `system-scenic` as a Maven project (JDK 8+).
 2. Create a MySQL database and execute `system-scenic.sql`.
 3. Update datasource and file storage settings in `src/main/resources/application.yml`.
-4. Run the application via `mvn spring-boot:run` or from `SystemScenicApplication`.
+4. Run the application via `DemoApplication`.
 
 The frontend is under modification, so it's not included in this repository currently.
